@@ -21,3 +21,12 @@ Use this command:
 ```
 sudo docker run -p 8080:8080 -p 50000:50000 -v jenkins-data:/var/jenkins_home jenkins/jenkins
 ```
+
+## Post Run
+
+- Browse jenkins using localhost:8080
+- Unlock jenkins by finding the password that jenkins write to the stdio.  
+Example:  
+dd19cc0a01724ea2a50d2789605d6e0a
+- Jenkins will take you to the plugins page (Dashboard->Manage Jenkins->Plugins).  
+In the next lan you will explore jenkins plugins.
